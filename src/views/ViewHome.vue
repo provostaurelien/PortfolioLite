@@ -59,7 +59,7 @@
 
 <script>
 // Importation des composants api et images
-import Avatar from '@/assets/pictures/avatar.png'
+import Avatar from '@/assets/pictures/Avatar.png'
 import skillsData from '@/data/skills.json'
 import CarousselPortfolio from '@/components/CarousselPortfolio.vue'
 import '../assets/styles/global.css'
