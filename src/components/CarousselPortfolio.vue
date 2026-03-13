@@ -30,7 +30,7 @@
 
 <script>
 import '../assets/styles/global.css'
-import portfolioData from 'src/data/portfolio.json'
+import portfolioData from '@/data/portfolio.json'
 export default {
   props: {
     isDark: {
