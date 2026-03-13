@@ -9,7 +9,7 @@
           >
             <!-- Placeholder avec gestion de l'état de chargement -->
             <img
-              :src="`/assets/pictures/projects/${visibleItems[0].image}`"
+              :src="visibleItems[0].image"
               :alt="visibleItems[0].title"
               class="carousel-image"
               :class="{ loaded: isImageLoaded }"
@@ -30,6 +30,7 @@
 
 <script>
 import '../assets/styles/global.css'
+import portfolioData from 'src/data/portfolio.json'
 export default {
   props: {
     isDark: {
@@ -54,7 +55,7 @@ export default {
     },
   },
   mounted() {
-    this.fetchPortfolioData()
+    this.items = portfolioData
     this.startCarousel()
   },
   beforeUnmount() {
