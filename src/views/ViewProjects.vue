@@ -18,10 +18,7 @@
           class="carousel-link"
         >
           <div class="ImageContainer">
-            <img
-              :src="`src/assets/pictures/projects/${project.image}`"
-              :alt="'Logo de ' + project.title"
-            />
+            <img :src="project.image" :alt="'Logo de ' + project.title" />
           </div>
           <h2>{{ project.title }}</h2>
           <p>{{ project.Description }}</p>
@@ -33,6 +30,7 @@
 
 <script>
 import '../assets/styles/global.css'
+import portfolioData from '@/data/portfolio.json'
 export default {
   name: 'ViewProjects',
   props: {
@@ -60,7 +58,7 @@ export default {
     },
   },
   mounted() {
-    this.fetchPortfolioData() // Appel de la méthode lors du montage du composant
+    this.items = portfolioData // Appel de la méthode lors du montage du composant
   },
 }
 </script>
