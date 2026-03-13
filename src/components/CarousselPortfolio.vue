@@ -9,7 +9,7 @@
           >
             <!-- Placeholder avec gestion de l'état de chargement -->
             <img
-              :src="`src/assets/pictures/projects/${visibleItems[0].image}`"
+              :src="`/assets/pictures/projects/${visibleItems[0].image}`"
               :alt="visibleItems[0].title"
               class="carousel-image"
               :class="{ loaded: isImageLoaded }"
