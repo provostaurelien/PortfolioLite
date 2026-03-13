@@ -3,7 +3,7 @@
     <!-- Première partie : Logo + Titre + Lien -->
     <section :class="['Title', { dark: isDark }]">
       <img
-        :src="`/src/assets/pictures/projects/${project.image}`"
+        :src="project.image"
         :alt="project.title"
         class="Logo"
       />
