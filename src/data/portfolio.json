@@ -50,7 +50,7 @@
     "image": "/assets/pictures/projects/image5.png",
     "title": "Mon Portfolio",
     "Description": "Conception d'un site web multipage back-end symfony et front-end vue.js et des différentes type de tests",
-    "Details": "Le site sur lequel vous êtes est mon projet de fin d'études, le but n'étant pas de devenir développeur web mais j'ai toujours aimé comprendre comment cela fonctionne, cela me permet de comprendre les tenants et aboutissants des différents tests pour concevoir une stratégie de tests. Le back-end a été créé en collaboration avec une IA. Côté front-end, j'ai voulu changé de react pour explorer vue.js, le test unitaire des composants, les test api et cypress du site.",
+    "Details": "Le site sur lequel vous êtes est une version lite de mon projet de fin d'études, le but n'étant pas de devenir développeur web mais j'ai toujours aimé comprendre comment cela fonctionne, cela me permet de comprendre les tenants et aboutissants des différents tests pour concevoir une stratégie de tests. Le site originel était composé d'un back-end  créé en collaboration avec une IA. Côté front-end, j'ai voulu changé de react pour explorer vue.js, le test unitaire des composants, les test api et cypress du site.",
     "Plus": "En tant que testeur QA, j'ai voulu coder la documentation API via un swagger ainsi qu'un test unitaire back-end.",
     "FichierSup1": "/assets/pictures/projects/TestPortfolio.png",
     "FichierSup2": "/assets/pictures/projects/PortfolioSwagger.png",
