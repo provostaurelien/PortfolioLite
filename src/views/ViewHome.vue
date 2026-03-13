@@ -37,7 +37,7 @@
           <div v-for="(skill, index) in skills" :key="index" class="card">
             <div class="card-body">
               <img
-                :src="'src/assets/pictures/skills/' + skill.image"
+                :src="'/assets/pictures/skills/' + skill.image"
                 :alt="'Image représentant ' + skill.title"
                 class="card-image"
               />
